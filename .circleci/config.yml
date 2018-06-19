@@ -17,7 +17,7 @@ image_config: &image_config
 
   RUBY_VERSION_NUM: 2.3.1
 
-  # NODE_VERSION_NUM: # pick a version from https://nodejs.org/dist
+  NODE_VERSION_NUM: 6.9.4
 
   # PYTHON_VERSION_NUM: # pick a version from https://python.org/ftp/python
 
@@ -29,7 +29,7 @@ image_config: &image_config
 
   DOCKERIZE: false
 
-  BROWSERS: false
+  BROWSERS: true
 
 version: 2
 jobs:
